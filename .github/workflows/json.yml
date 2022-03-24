@@ -12,9 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: '2'
+          fetch-depth: 2
       - name: log
-        run: git log
+        run: |
+          git log
       - name: deletion-check
         run: |
           echo "Check for deletions in commit"
