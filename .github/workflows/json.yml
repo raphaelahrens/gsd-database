@@ -17,3 +17,5 @@ jobs:
         uses: cloudsecurityalliance/gsd-tools/actions/deletion-check@main
       - name: json-check
         uses: cloudsecurityalliance/gsd-tools/actions/json-check@main
+      - name: json-validation
+        uses: raphaelahrens/gsd-tools/actions/json_validator@json_validator
